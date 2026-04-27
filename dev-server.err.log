@@ -1,0 +1,134 @@
+Compilation error in C:\Users\Favour Opia\ReactDir\e commerce\backend\src\services\auth.service.ts
+(node:9568) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9568) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(node:9888) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22684) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at C:\Users\Favour Opia\ReactDir\e commerce\backend\src\server.ts:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at C:\Users\Favour Opia\ReactDir\e commerce\backend\src\server.ts:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at C:\Users\Favour Opia\ReactDir\e commerce\backend\src\server.ts:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at C:\Users\Favour Opia\ReactDir\e commerce\backend\src\server.ts:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at C:\Users\Favour Opia\ReactDir\e commerce\backend\src\server.ts:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at C:\Users\Favour Opia\ReactDir\e commerce\backend\src\server.ts:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at C:\Users\Favour Opia\ReactDir\e commerce\backend\src\server.ts:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at C:\Users\Favour Opia\ReactDir\e commerce\backend\src\server.ts:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at C:\Users\Favour Opia\ReactDir\e commerce\backend\src\server.ts:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at C:\Users\Favour Opia\ReactDir\e commerce\backend\src\server.ts:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at C:\Users\Favour Opia\ReactDir\e commerce\backend\src\server.ts:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at C:\Users\Favour Opia\ReactDir\e commerce\backend\src\server.ts:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at C:\Users\Favour Opia\ReactDir\e commerce\backend\src\server.ts:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at C:\Users\Favour Opia\ReactDir\e commerce\backend\src\server.ts:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+(node:28228) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:28228) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+Port 5000 is already in use. Stop the existing backend process or set a different PORT.
+Port 5000 is already in use. Stop the existing backend process or set a different PORT.
+
+
+#
+# Fatal process out of memory: Zone
+#
+----- Native stack trace -----
+
+ 1: 00007FF6F3C120AD 
+ 2: 00007FF6F3AF62CF 
+ 3: 00007FF6F4CC16E6 
+ 4: 00007FF6F46E6EA1 
+ 5: 00007FF6F41B8ECB 
+ 6: 00007FF6F4475484 
+ 7: 00007FF6F4473F03 
+ 8: 00007FF6F502D958 
+ 9: 00007FF6F502D836 
+10: 00007FF6F4E55F1F 
+11: 00007FF6F4E57DA2 
+12: 00007FF6F4E5DCCB 
+13: 00007FF6F4E58448 
+14: 00007FF6F4E562A5 
+15: 00007FF6F4E5442F 
+16: 00007FF6F50B1A35 
+17: 00007FF6F4EDE7EA 
+18: 00007FF6F4EDE736 
+19: 00007FF6F4E0E32F 
+20: 00007FF6F4DE1B64 
+21: 00007FF6F4DD87F2 
+22: 00007FF6F4DD9325 
+23: 00007FF6F46637E4 
+24: 00007FF6F461CFFF 
+25: 00007FF6F48EB995 
+26: 00007FF6F3AF8B59 
+27: 00007FF6F3C72323 
+28: 00007FF6F53D066E 
+29: 00007FF9C1C155A0 
+30: 00007FF9C362485B 
