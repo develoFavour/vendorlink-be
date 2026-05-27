@@ -43,11 +43,6 @@ const setAuthCookies = (res: Response, data: any) => {
   res.cookie("auth_role", data.user.role, roleCookieOptions);
 };
 
-const withoutToken = (data: any) => {
-  const { token, refreshToken, ...responseData } = data;
-  return responseData;
-};
-
 const clearAuthCookies = (res: Response) => {
   res.clearCookie("auth_token", { ...cookieOptions, maxAge: undefined });
   res.clearCookie("refresh_token", { ...cookieOptions, maxAge: undefined });
@@ -69,7 +64,7 @@ export class AuthController {
   public login = asyncHandler(async (req: Request, res: Response) => {
     const data = await authService.login(req.body);
     setAuthCookies(res, data);
-    return res.status(200).json(new ApiResponse(200, withoutToken(data), "Login successful"));
+    return res.status(200).json(new ApiResponse(200, data, "Login successful"));
   });
 
   public me = asyncHandler(async (req: AuthenticatedRequest, res: Response) => {
@@ -78,10 +73,10 @@ export class AuthController {
   });
 
   public refresh = asyncHandler(async (req: Request, res: Response) => {
-    const refreshToken = parseCookie(req.headers.cookie, "refresh_token");
+    const refreshToken = parseCookie(req.headers.cookie, "refresh_token") || req.body?.refreshToken;
     const data = await authService.refreshSession(refreshToken);
     setAuthCookies(res, data);
-    return res.status(200).json(new ApiResponse(200, withoutToken(data), "Session refreshed"));
+    return res.status(200).json(new ApiResponse(200, data, "Session refreshed"));
   });
 
   public logout = asyncHandler(async (_req: Request, res: Response) => {
