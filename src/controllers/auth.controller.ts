@@ -7,7 +7,7 @@ import { AuthenticatedRequest } from "../middleware/auth.middleware";
 const cookieOptions = {
   httpOnly: true,
   secure: process.env.NODE_ENV === "production",
-  sameSite: "lax" as const,
+  sameSite: (process.env.NODE_ENV === "production" ? "none" : "lax") as "none" | "lax",
   path: "/",
 };
 
