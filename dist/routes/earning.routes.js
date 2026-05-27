@@ -1,0 +1,18 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const earning_controller_1 = require("../controllers/earning.controller");
+const auth_middleware_1 = require("../middleware/auth.middleware");
+const user_model_1 = require("../models/user.model");
+const router = (0, express_1.Router)();
+router.use(auth_middleware_1.protect);
+router.get("/seller/overview", (0, auth_middleware_1.authorize)(user_model_1.UserRole.VENDOR, user_model_1.UserRole.ADMIN), earning_controller_1.earningController.getSellerOverview);
+router.get("/seller", (0, auth_middleware_1.authorize)(user_model_1.UserRole.VENDOR, user_model_1.UserRole.ADMIN), earning_controller_1.earningController.listSellerEarnings);
+router.post("/seller/withdrawals", (0, auth_middleware_1.authorize)(user_model_1.UserRole.VENDOR, user_model_1.UserRole.ADMIN), earning_controller_1.earningController.requestWithdrawal);
+router.get("/admin/summary", (0, auth_middleware_1.authorize)(user_model_1.UserRole.ADMIN), earning_controller_1.earningController.getAdminSummary);
+router.get("/admin/withdrawals", (0, auth_middleware_1.authorize)(user_model_1.UserRole.ADMIN), earning_controller_1.earningController.listAdminWithdrawals);
+router.patch("/admin/withdrawals/:id/approve", (0, auth_middleware_1.authorize)(user_model_1.UserRole.ADMIN), earning_controller_1.earningController.approveWithdrawal);
+router.patch("/admin/withdrawals/:id/reject", (0, auth_middleware_1.authorize)(user_model_1.UserRole.ADMIN), earning_controller_1.earningController.rejectWithdrawal);
+router.patch("/admin/withdrawals/:id/process", (0, auth_middleware_1.authorize)(user_model_1.UserRole.ADMIN), earning_controller_1.earningController.processWithdrawal);
+router.patch("/admin/withdrawals/:id/confirm-paid", (0, auth_middleware_1.authorize)(user_model_1.UserRole.ADMIN), earning_controller_1.earningController.confirmWithdrawalPaid);
+exports.default = router;
