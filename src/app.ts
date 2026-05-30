@@ -27,6 +27,14 @@ app.get('/', (req: Request, res: Response) => {
   res.send('E-commerce API is running...');
 });
 
+app.get('/api/v1/health', (_req: Request, res: Response) => {
+  res.status(200).json({
+    status: 'ok',
+    uptime: process.uptime(),
+    timestamp: new Date().toISOString(),
+  });
+});
+
 // Routes will be imported and used here
 app.use('/api/v1/auth', authRoutes);
 app.use('/api/v1/products', productRoutes);
